@@ -122,7 +122,7 @@ EarlyStopping restored the best weights from epoch 47
 This prevented the model from continuing to train after validation loss stopped improving
 The final model used the best validation performance instead of the last training epoch
 
-##C. Performance Comparison
+# C. Performance Comparison
 
 ## 9. What improvements were observed after modifying the model?
 After modifying the custom CNN, all major metrics improved significantly:
