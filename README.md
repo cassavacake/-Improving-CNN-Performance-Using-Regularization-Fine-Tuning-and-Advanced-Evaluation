@@ -127,8 +127,7 @@ The final model used the best validation performance instead of the last trainin
 ## 9. What improvements were observed after modifying the model?
 After modifying the custom CNN, all major metrics improved significantly:
 
-## | Metric              | Baseline Model | Improved Custom CNN | Difference |
-| -------------------    | -------------- | ------------------- | ---------- |
+| Metric                 | Baseline Model | Improved Custom CNN | Difference |
 | Training Accuracy      | 0.6365         | 0.8941              | +0.2576    |
 | Validation Accuracy    | 0.5265         | 0.7770              | +0.2504    |
 | Training Loss          | 1.2125         | 0.3810              | -0.8314    |
