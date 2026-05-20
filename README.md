@@ -126,16 +126,16 @@ The final model used the best validation performance instead of the last trainin
 
 ## 9. What improvements were observed after modifying the model?
 After modifying the custom CNN, all major metrics improved significantly:
-
-| Metric                 | Baseline Model | Improved Custom CNN | Difference |
-| Training Accuracy      | 0.6365         | 0.8941              | +0.2576    |
-| Validation Accuracy    | 0.5265         | 0.7770              | +0.2504    |
-| Training Loss          | 1.2125         | 0.3810              | -0.8314    |
-| Validation Loss        | 1.5330         | 0.9146              | -0.6184    |
-| Macro Precision        | 0.5263         | 0.7792              | +0.2529    |
-| Macro Recall           | 0.5141         | 0.7778              | +0.2637    |
-| Macro F1-Score         | 0.5103         | 0.7738              | +0.2635    |
-| AUC Score              | 0.9223         | 0.9771              | +0.0548    |
+| Metric | Baseline Model | Improved Custom CNN | Difference |
+|---|---|---|---|
+| Training Accuracy | 0.6365 | 0.8941 | +0.2576 |
+| Validation Accuracy | 0.5265 | 0.7770 | +0.2504 |
+| Training Loss | 1.2125 | 0.3810 | -0.8314 |
+| Validation Loss | 1.5330 | 0.9146 | -0.6184 |
+| Macro Precision | 0.5263 | 0.7792 | +0.2529 |
+| Macro Recall | 0.5141 | 0.7778 | +0.2637 |
+| Macro F1-Score | 0.5103 | 0.7738 | +0.2635 |
+| AUC Score | 0.9223 | 0.9771 | +0.0548 |
 
 
 ## 10. Which enhancement contributed the most to performance improvement? Why?
